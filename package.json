@@ -1,6 +1,6 @@
 {
   "name": "purge-netdna",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Purge files on NetDNA/MaxCDN",
   "main": "index.js",
   "scripts": {
