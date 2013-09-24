@@ -3,7 +3,7 @@
 
 var netdna = require('netdna')
 
-module.exports = function (credentials) {
+module.exports = function (credentials, cb) {
   if (!credentials.companyAlias) throw(new Error('Missing `companyAlias`!'))
   if (!credentials.consumerKey) throw(new Error('Missing `consumerKey`!'))
   if (!credentials.consumerSecret) throw(new Error('Missing `consumerSecret`!'))
@@ -18,7 +18,9 @@ module.exports = function (credentials) {
   var url = 'zones/pull.json/' + credentials.zoneId + '/cache'
   netdna.delete(url, function (err, response) {
     if (err || response.code !== 200) {
-      throw(new Error('Unexpected NetDNA response code: ' + response.code))
+      cb(new Error('Unexpected NetDNA response code: ' + response.code))
+    } else {
+      cb(null)
     }
   })
 }
