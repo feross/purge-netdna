@@ -1,6 +1,3 @@
-/*jslint node: true */
-"use strict";
-
 var netdna = require('netdna')
 
 module.exports = function (credentials, cb) {
