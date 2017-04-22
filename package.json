@@ -1,27 +1,30 @@
 {
   "name": "purge-netdna",
-  "version": "1.0.2",
   "description": "Purge files on NetDNA/MaxCDN",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/feross/purge-netdna.git"
-  },
-  "keywords": [
-    "purge",
-    "netdna",
-    "maxcdn",
-    "cdn"
-  ],
+  "version": "1.0.2",
   "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/feross/purge-netdna/issues"
   },
   "dependencies": {
     "netdna": "*"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "keywords": [
+    "cdn",
+    "maxcdn",
+    "netdna",
+    "purge"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/purge-netdna.git"
+  },
+  "scripts": {
+    "test": "standard"
   }
 }
