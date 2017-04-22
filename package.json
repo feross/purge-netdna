@@ -1,7 +1,7 @@
 {
   "name": "purge-netdna",
   "description": "Purge files on NetDNA/MaxCDN",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
   "bugs": {
     "url": "https://github.com/feross/purge-netdna/issues"
