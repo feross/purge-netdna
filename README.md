@@ -1,5 +1,7 @@
 # purge-netdna [![npm](https://img.shields.io/npm/v/purge-netdna.svg)](https://npmjs.org/package/purge-netdna)
 
+# DEPRECATED
+
 #### Purge files on MaxCDN from node.js
 
 ## install
