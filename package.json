@@ -10,7 +10,7 @@
     "netdna": "*"
   },
   "devDependencies": {
-    "standard": "^10.0.2"
+    "standard": "*"
   },
   "keywords": [
     "cdn",
